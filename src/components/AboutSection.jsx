@@ -1,4 +1,4 @@
-import { Briefcase, User } from 'lucide-react';
+import { Briefcase, Code, User } from 'lucide-react';
 
 export const AboutSection = () => {
   return (
@@ -8,8 +8,10 @@ export const AboutSection = () => {
           About <span className="text-primary"></span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="text-2xl font-semibold">
-            <h3>Passionate Web Developer & Tech Creator</h3>
+          <div className="space-y-6">
+            <h3 className="text-2xl font-semibold">
+              Passionate Web Developer & Tech Creator
+            </h3>
 
             <p className="text-muted-foreground">
               With over 5 years of experience in web development, I specialize
@@ -33,7 +35,7 @@ export const AboutSection = () => {
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Doqnload CV
+                Download CV
               </a>
             </div>
           </div>
