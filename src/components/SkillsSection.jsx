@@ -8,6 +8,8 @@ const skills = [
   { name: 'Typescript', level: 95, category: 'frontend' },
   { name: 'TailwindCss', level: 95, category: 'frontend' },
   { name: 'NextJs', level: 95, category: 'frontend' },
+  { name: 'Shadcn', level: 95, category: 'frontend' },
+  { name: 'NextJs', level: 95, category: 'frontend' },
 
   //Backend
   { name: 'NodeJs', level: 95, category: 'backend' },
